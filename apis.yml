@@ -1,7 +1,26 @@
 aid: briko
-name: Briko
-description: Briko is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/briko.png
+name: Briko Robotics
+description: 'Briko Robotics (Briko Robotica) was a Mexican educational technology
+  startup founded in 2014 in San Luis Potosi, Mexico, that sold a modular programmable
+  electronics kit paired with an online learning platform teaching robotics and programming
+  to children from roughly age eight. The company was accelerated by 500 Startups
+  LatAm (batch 7) and raised a small seed amount. Third-party company databases now
+  classify Briko Robotics as deadpooled, and its former domain brikorobotics.com has
+  been hijacked and serves unrelated SEO spam. No developer portal, documentation,
+  API, or machine-readable specification was ever published, so this profile carries
+  identity and provenance only.'
 url: https://raw.githubusercontent.com/api-evangelist/briko/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +28,44 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-source: https://tracxn.com/d/companies/briko-robotics/__8Sglz-krvPu6QRaNn3pK1RbLF6qIh-Skhe2mzdRbBuE
+x-former-domain: https://brikorobotics.com
+x-enrichment-status: dead-domain
+x-enrichment-note: 'Enrichment 2026-07-20 (re-verified): the company is defunct. Tracxn
+  classifies Briko Robotics as deadpooled. The former domain brikorobotics.com still
+  returns HTTP 200 but serves a hijacked Indonesian gambling SEO-spam page ("MERIAH4D
+  / slot gacor") built over scraped Alibaba markup; its sitemap.xml lists a single
+  URL last modified 2025-11-18 and /docs, /api, /developers, /.well-known/security.txt
+  and /llms.txt all return 404. The live Website pointer was REMOVED so the network
+  does not link users to spam; the historical domain is retained in x-former-domain.
+  Three candidate replacement domains were checked and all ruled out as unrelated
+  name collisions: briko.com is Briko, an Italian cycling and ski apparel brand;
+  briko.io is a parked domain lander; briko.mx is Briko Desarrolladora, a Mexican
+  real-estate and construction developer. No GitHub organization matches. No API
+  surface exists, so no artifacts were generated (no-fabrication).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Robotics
+- Hardware
+- STEM Education
+- Mexico
+- Latin America
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://brikorobotics.com
+common: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
