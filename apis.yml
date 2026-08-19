@@ -44,7 +44,7 @@ x-enrichment-note: 'Enrichment 2026-07-20 (re-verified): the company is defunct.
   briko.io is a parked domain lander; briko.mx is Briko Desarrolladora, a Mexican
   real-estate and construction developer. No GitHub organization matches. No API
   surface exists, so no artifacts were generated (no-fabrication).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
